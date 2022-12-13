@@ -2,6 +2,11 @@ name: send message
 
 on: push
 
+## or set timer (runs 10:00 utc)
+# on:
+#   schedule:
+#   - cron: 0 10 * * *
+
 jobs:
   build:
     runs-on: ubuntu-latest
