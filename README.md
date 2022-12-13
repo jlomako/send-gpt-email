@@ -1,5 +1,5 @@
-### bot that sends an email using the OpenAI API
-(uses github action with secrets)
+
+This Github Action uses the OpenAI GPT-3 natural language processing model to automatically generate text, which is then sent to an email address of your choice. You need to provide your own OpenAI API key and email address as secrets in your repository in order to use it. Once configured, this bot runs regularly, every day or week, to send out the generated text.
 
 [![send message](https://github.com/jlomako/send-gpt3-message/actions/workflows/main.yml/badge.svg)](https://github.com/jlomako/send-gpt3-message/actions/workflows/main.yml)
 
