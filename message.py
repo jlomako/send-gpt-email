@@ -17,10 +17,10 @@ response = openai.Completion.create(
 
 message = response["choices"][0]["text"]
 
-# send message
+# send message to myself
 my_email = os.environ['MY_EMAIL']
-your_email = os.environ['YOUR_EMAIL']
-pw = os.environ['GMAIL_PASSWORD']
+your_email = os.environ['MY_EMAIL2']
+pw = os.environ['PASSWORD']
 
 with smtplib.SMTP(host='smtp.gmail.com', port=587) as connection:
     connection.starttls() # adds encryption
