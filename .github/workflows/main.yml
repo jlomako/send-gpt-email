@@ -1,4 +1,4 @@
-name: send message
+name: send gpt3 email
 
 on: push
 
